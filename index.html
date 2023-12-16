@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Samuel Yazie">
+        <meta name="description" content="Samuel Yazie web developer">
+        <meta name="keywords" content="web developer, web, developer, 
+          front-end, html, css, javascript, react, sqi">
+        <title>Login</title>
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet'/>
+        <script src="./assets/script/index.js" type="module"></script>
+    </head>
+    <body>
+        <div class="everything">
+            <div class="imgContainer">
+                <img src="./assets/img/modern-city-building-exterior-facade-600nw-1967885803.jpg">
+            </div>
+            <div class="loginStuff">
+                <div class="login-container">
+                    <h1>Log<span>in</span></h1>
+
+                    <form id="loginForm">
+                        <label class="incorrect">Username or passwrod is incorrect</label>
+                        <input type="text" class="username" name="username" placeholder="Username" required>
+            
+                        <input type="password" class="password" name="password" placeholder="Password" required>
+                        <a href="#">Forgot your password?</a>
+
+                        <div class="btn">
+                            <a class="login" href="">Login</a>
+                            <a class="signUp" href="">Sign Up</a>
+                        </div>
+                    </form>
+                </div>
+                <h2>Or</h2>
+                <div class="additionalLogin">
+                    <button class="googleSignIn">
+                        <p>
+                            <img src="./assets/img/Google__G__logo.svg-removebg-preview.png" height="24px" width="24px">
+                            Sign in with google
+                        </p>
+                    </button>
+                    <button class="facebookSignIn">
+                        <p>
+                            <img src="./assets/img/Facebook_Logo_2023-removebg-preview.png" height="24px" width="24px">
+                            Sign in with Facebook
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
